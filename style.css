@@ -1,0 +1,76 @@
+/* Css= Cascade Styl sheet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    font-family: 'Alkatra', cursive;
+    
+}
+body{
+    background-color: #646b63;
+
+}
+/* --------------- Estilos del Navegador----------- */
+h2{
+    font-size: 20px;
+    color: orange;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;    
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+ }
+
+
+ nav{
+    display: flex;
+    gap: 100px;
+    /* gap es espaciado entre hijos*/
+}
+
+.caja{
+    width: 250px;
+    height:180px;
+    background-color: black;
+    border: 5px #890A0A solid;
+    border-radius: 10px;
+    margin: 15px 15px;
+    background-image: url(./img/tren-delantero.jpg);
+    background-size: 250px 180px;
+    box-shadow: 1px 1px 10px  black ;
+    
+}
+
+.caja2{
+    width: 250px;
+    height:180px;
+    background-color: black;
+    border: 5px #890A0A solid;
+    border-radius: 10px;
+    background-image: url();
+    margin: 15px 15px;
+    box-shadow: 1px 1px 10px  black ;
+}
+.caja3{
+    width: 250px;
+    height:180px;
+    background-color: black;
+    border: 5px #890A0A solid;
+    border-radius: 10px;
+    background-image: url();
+    margin: 15px 15px;
+    box-shadow: 1px 1px 10px  black ;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
